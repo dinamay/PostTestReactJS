@@ -14,18 +14,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fdd3b6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(84, 18, 128); 
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #9fdced;
 }
 
 @keyframes App-logo-spin {

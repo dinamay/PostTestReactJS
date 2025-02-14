@@ -1,0 +1,39 @@
+.nav-header {
+    position: fixed;
+    width : 100%;
+    top : 0;
+    left: 0;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+    /* margin-bottom: 50px; */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: var(--header-height);
+    background-color: rgb(122, 178, 10);
+    padding: 16px 120px 16px 0;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #060308;
+    font-weight: 700;
+}
+.nav a:hover {
+    color: #fff;
+}
