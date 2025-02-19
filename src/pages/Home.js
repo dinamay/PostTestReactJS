@@ -117,7 +117,7 @@ function Home() {
       setChartOptions(options);
       console.log("chart options ", options)
     }
-  }, [chartData]);
+  }, [chartData,listAnak] );
 
   return (
     <div>
