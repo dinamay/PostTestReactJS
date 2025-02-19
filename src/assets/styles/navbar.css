@@ -4,7 +4,7 @@
     top : 0;
     left: 0;
     background-color: transparent;
-    z-index: var(--z-fixed);
+    z-index: 2;
     /* margin-bottom: 50px; */
 }
 
@@ -16,6 +16,7 @@
     height: var(--header-height);
     background-color: rgb(122, 178, 10);
     padding: 16px 120px 16px 0;
+    /* z-index: 10; */
 }
 
 .nav ul {
