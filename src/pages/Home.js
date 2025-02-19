@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import { Bar } from "react-chartjs-2";
+// import { Bar } from "react-chartjs-2";
 import { Panel } from "primereact/panel";
 import {
   Chart as ChartJS,
@@ -25,7 +25,7 @@ function Home() {
   const { listAnak } = DataAnak((state) => state);
 
   const [chartData, setChartData] = useState({});
-  const [chartOptions, setChartOptions] = useState({});
+  // const [chartOptions, setChartOptions] = useState({});
   const chartRef = useRef(null)
 
   const grupKidsByUmur = (kids) => {
@@ -114,7 +114,7 @@ function Home() {
 
       setChartData(data);
       console.log("chart data ", chartData)
-      setChartOptions(options);
+      // setChartOptions(options);
       console.log("chart options ", options)
     }
   }, [chartData,listAnak] );
@@ -125,7 +125,7 @@ function Home() {
       <div className="grid">
         <div className="col-12 md:col-6">
           <Panel header="Distribusi Jumlah Anak dengan kategori Umur">
-            <Bar data={chartData} options={chartOptions} ref={chartRef} />
+            {/* <Bar data={chartData} options={chartOptions} ref={chartRef} /> */}
           </Panel>
         </div>
       </div>
